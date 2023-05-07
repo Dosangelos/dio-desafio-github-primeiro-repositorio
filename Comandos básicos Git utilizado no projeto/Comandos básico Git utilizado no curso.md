@@ -7,7 +7,6 @@ Exemplo:
 >git clone https://link-com-o-nome-do-repositório
 
 * **git status**
-
 O comando git status nos dá todas as informações necessárias sobre a branch atual.
 
 Exemplo: 
@@ -29,7 +28,6 @@ ou
 git add **.**
 
 * **git commit**
-
 Talvez esse seja o comando mais usado do Git. Quando chegamos a determinado ponto em desenvolvimento, queremos salvar nossas alterações (talvez após uma tarefa ou resolução de problema específica).
 
 Git commit é como definir um ponto de verificação no processo de desenvolvimento. Você pode voltar a esse ponto mais tarde, se necessário.
@@ -53,18 +51,19 @@ Exemplo:
 
 
  * **git branch**
-
-
 Branches (algo como ramificações, em português) são altamente importantes no mundo do git. Usando as branches, vários desenvolvedores conseguem trabalhar em paralelo no mesmo projeto simultaneamente. Podemos usar o comando git branch para criar, listar e excluir as branches.
 
 Exemplo: 
 >git branch <nome-da-branch>
 
+ * **git pull**
+O comando git pull é usado para obter as atualizações de um repositório remoto. Esse comando é uma combinação de git fetch e git merge, o que significa que, quando usamos git pull, ele recebe as atualizações do repositório remoto (git fetch) e aplica imediatamente as alterações mais recentes em seu espaço de trabalho local (git merge).
+ Eexemplo:
+>git pull <repositório-remoto>
 
 
-: 
-
-[Fonte de pesquisa: ](https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/)
+Fonte de pesquisa:
+[Freecodecamp ](https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/)
 
 
 
